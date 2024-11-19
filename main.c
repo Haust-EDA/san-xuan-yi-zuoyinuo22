@@ -7,9 +7,9 @@ int main() {
         }
         printf("\n");
     }
-    for (int i = 1; i <= 9; i++) {
-        for (int p = 9; p >= i; p--) {
-            printf("%d*%d=%d ", p, i, p * i);
+    for (int i = 9; i >= 1; i--) {
+        for (int p = 1; p <= i; p++) {
+            printf("%d*%d=%d ", i, p, i* p);
         }
         printf("\n");
     }
